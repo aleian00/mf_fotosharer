@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <link href="https://fonts.googleapis.com/css?family=DM+Serif+Display:400,400i|Roboto+Mono&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="../static/animate.css">
+    <link rel="stylesheet" href="../static/css/owl.carousel.min.css">
+    <link rel="stylesheet" href="../static/css/jquery.fancybox.min.css">
+
+
+    <link rel="stylesheet" href="../static/onts/ionicons/css/ionicons.min.css">
+    <link rel="stylesheet" href="../static/fonts/fontawesome/css/font-awesome.min.css">
+    <link rel="stylesheet" href="../static/fonts/flaticon/font/flaticon.css">
+    <link rel="stylesheet" href="../static/css/aos.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/simple-line-icons/2.4.1/css/simple-line-icons.css">
+    <link rel="stylesheet" href="../static/css/own.css">
+
+    <!-- Theme Style -->
+    <link rel="stylesheet" href="../static/css/style.css">
+    <link rel="stylesheet" href="../static/css/own.css">
+
+    <title>A&M Fotosharer</title>
+</head>
+<body>
+    <header class="navbanner" role="banner">
+        <nav class="navbar navbar-expand-lg  bg-dark">
+          <div class="container-fluid">
+            <a class="navbar-brand " href="index.html">A&M Fotosharer</a>
+
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarsExample05"
+              aria-controls="navbarsExample05" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+
+
+            <div class="collapse navbar-collapse" id="navbarsExample05">
+              <ul class="navbar-nav pl-md-4 ml-auto">
+                <li class="nav-item">
+                  <a class="nav-link" href="index.html">Home</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="upload.html">Upload</a>
+                </li>
+
+                <li class="nav-item">
+                  <a class="nav-link" href="download.html">Download</a>
+                </li>
+
+                <li class="nav-item">
+                  <a class="nav-link" href="contact.html">Infos & Kontakt</a>
+                </li>
+              </ul>
+
+              <div class="navbar-nav ml-auto">
+                <!-- Profile button and dropdown -->
+                <div class="btn-group">
+                  <button type="button" class="btn btn-squared-default btn-info">
+                    <img class="profileImg" src="../static/images/blank-profile.png">
+                  </button>
+                  <button type="button" id="profileBtn" class="btn btn-info dropdown-toggle dropdown-toggle-split" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                    <span class="sr-only">Toggle Dropdown</span>
+
+
+                  </button>
+                    <ul class="dropdown-menu">
+                      <li><a class="dropdown-item" href="#">Profil bearbeiten</a></li>
+                    <li><a class="dropdown-item" href="#">Befreundete User</a></li>
+                    <li> <a class="dropdown-item" href="#">Mitteilungen</a></li>
+                    <li></li>  <div class="dropdown-divider"></div></li>
+                    <li></li>  <a class="dropdown-item" href="#">Logout</a></li>
+                    </ul>
+                  </div>
+                  </div>
+              </div>
+
+            </div>
+          </div>
+        </nav>
+    </header>
+<body>
+
+    <div class="col-xs-1 text-center ">
+        <br><br><br><br>
+        <form class="registerForm">
+            <div class="form-group">
+                <label for="username">Username</label>
+                <input type="text" class="form-control" id="CreateUsername" placeholder="Username">
+                <small id="usernameHelp" class="form-text text-muted">Der Username darf höchstens 20 Zeichen lang sein</small>
+            </div>
+            <div class="form-group">
+                <label for="email">Email Adresse</label>
+                <input type="email" class="form-control" id="userMail" placeholder="Email">
+            </div>
+            <div class="form-group">
+                <label for="password1">Password</label>
+                <input type="password" class="form-control" id="firstPassword" placeholder="Passwort">
+                <small id="passwordHelp" class="form-text text-muted">Das Passwort muss mindestesns 8 Zeichen lang sein, 1 Sonderzeichen beinhalten und 1 Zahl beinhalten</small>
+            </div>
+            <div class="form-group">
+                <label for="passwordWiederholen">Password wiederholen</label>
+                <input type="password" class="form-control" id="wiederholenPassword" placeholder="Passwort wiederholen">
+            </div>
+            <button type="submit" class="btn btn-primary">Submit</button>
+
+        </form>
+    </div>
+
+</body>
+</html>

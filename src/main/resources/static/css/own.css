@@ -1,0 +1,90 @@
+.navbanner{
+    background-color: #1CA3E8 !important;
+}
+.profileImg{
+    border-radius: 80% !important;
+    max-width: 95%;
+}
+.btn-squared-default
+{
+    width: 100px !important;
+    height: 100px !important;
+    font-size: 10px;
+}
+
+    .btn-squared-default:hover
+    {
+        border: 3px solid white;
+        font-weight: 800;
+    }
+
+.btn-squared-default-plain
+{
+    width: 100px !important;
+    height: 100px !important;
+    font-size: 10px;
+}
+
+    .btn-squared-default-plain:hover
+    {
+        border: 0px solid white;
+    }
+/*.btnProfileImg{
+    border-radius: 100% !important;
+    max-width: 10% !important; 
+}
+*/
+/*#profileBtn{
+    width: 82px;
+<<<<<<< HEAD
+}
+body{
+  text-align: center;
+}
+
+h1{
+  margin-top: 7%;
+}
+
+p{
+  margin-top: 2%;
+}
+
+
+#fullGalery{
+  margin-top: 2%;
+}
+
+div.gallery {
+  margin: 5px;
+  border: 1px solid #fff;
+  float: left;
+  width: 180px;
+  text-align: center;
+}
+
+div.gallery:hover {
+  border: 1px solid #fff;
+}
+
+div.gallery img {
+  width: 170px;
+  height: 130px;
+  text-align: center;
+  filter: grayscale(100%);
+  -webkit-filter: grayscale(100%);
+  -moz-filter: grayscale(100%);
+  -ms-filter: grayscale(100%);
+  -o-filter: grayscale(100%);
+  filter: url(desaturate.svg#greyscale);
+  filter: gray;
+  -webkit-filter: grayscale(1);
+}
+
+div.desc {
+  padding: 15px;
+  text-align: center;
+}
+=======
+}*/
+>>>>>>> 3f7e89d1e76a3d910c35c2d06eb6ef18a3597801
