@@ -29,12 +29,12 @@
     {
         border: 0px solid white;
     }
-/*.btnProfileImg{
+.btnProfileImg{
     border-radius: 100% !important;
-    max-width: 10% !important; 
+    max-width: 10% !important;
 }
-*/
-/*#profileBtn{
+
+#profileBtn{
     width: 82px;
 <<<<<<< HEAD
 }
@@ -85,6 +85,3 @@ div.desc {
   padding: 15px;
   text-align: center;
 }
-=======
-}*/
->>>>>>> 3f7e89d1e76a3d910c35c2d06eb6ef18a3597801
