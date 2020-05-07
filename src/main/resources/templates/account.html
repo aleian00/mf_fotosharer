@@ -58,7 +58,9 @@
                 <!-- Profile button and dropdown -->
                 <div class="btn-group">
                   <button type="button" class="btn btn-squared-default btn-info">
-                    <img class="profileImg" src="../static/images/blank-profile.png">
+                    <a href="account.html">
+                      <img class="profileImg" src="../static/images/blank-profile.png">
+                    </a>
                   </button>
                   <button type="button" id="profileBtn" class="btn btn-info dropdown-toggle dropdown-toggle-split" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                     <span class="sr-only">Toggle Dropdown</span>
@@ -81,8 +83,13 @@
         </nav>
       </header>
 <body>
-<p>
-    <span th:text="${hello}">Hello!</span>
-</p>
+  <p>
+  <div class="col-xs-1 text-center">
+      <br><br><br><br>
+      <img src="../static/images/websiteSkizzen/account.jpeg" alt="account" width="90%">
+      <br>
+      <button> <a class="btn btn-info" href="payment.html">Thank you!</a></button>
+  </div>
+  </p>
 </body>
 </html>
